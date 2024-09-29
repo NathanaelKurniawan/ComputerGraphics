@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL Interactive Rectangle</title>
+    <style>
+        canvas {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid black;
+        }
+        #buttonColor {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="glCanvas" width="600" height="400"></canvas>
+    <div id="buttonColor">
+        <button id="color1">Red</button>
+        <button id="color2">Green</button>
+        <button id="color3">Blue</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
